@@ -1,6 +1,6 @@
 node('master') {
 
-    def servicePrincipalId = 'azure-service-principal'
+    def servicePrincipalId = 'azure_service_principal'
     def resourceGroup = 'learn-madhu'
     def aks = 'learn-madhu-aks-cluster'
 
